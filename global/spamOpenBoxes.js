@@ -36,6 +36,7 @@
                 medieval: 15,
                 wonderland: 15,
                 dino: 25
+                outback: 25
             }
             if (!Object.keys(boxes).includes(box.toLowerCase())) return alert('I could not find that box!');
             let amount = prompt('How many boxes do you want to open?');
